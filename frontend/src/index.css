@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* 
+  Al usar @variant (en vez de @custom-variant), le decimos a Tailwind:
+  "Olvida el modo oscuro del sistema, de ahora en adelante el modo oscuro 
+  SOLO se activa si el HTML tiene la clase .dark" 
+*/
+@variant dark (&:where(.dark, .dark *));

@@ -1,0 +1,7 @@
+import inspect
+from google import genai
+from google.genai import types
+
+print(dir(types.Part))
+print(dir(types.Content))
+print(dir(types.FunctionResponse))
